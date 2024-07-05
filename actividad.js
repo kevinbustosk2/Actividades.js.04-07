@@ -49,22 +49,22 @@
 // }
 
 /*-----------------------------------------------7*/
-let edad = prompt("Ingrese su edad.");
+// let edad = prompt("Ingrese su edad.");
 
-if (edad < 0) {
-    console.log("Error, su edad no es válida.");
-} else if (edad < 18) {
-    console.log("No puede pasar al bar.");
-} else if (edad >= 18 && edad <= 21) {
-    console.log("Puede pasar al bar, pero no puede tomar alcohol.");
-    if (edad === 21) {
-        console.log("¡Bienvenido! Felicidades por haber llegado a la mayoría de edad.");
-    }
-} else {
-    console.log("Puede pasar al bar y tomar alcohol.");
-}
+// if (edad < 0) {
+//     console.log("Error, su edad no es válida.");
+// } else if (edad < 18) {
+//     console.log("No puede pasar al bar.");
+// } else if (edad >= 18 && edad <= 21) {
+//     console.log("Puede pasar al bar, pero no puede tomar alcohol.");
+//     if (edad === 21) {
+//         console.log("¡Bienvenido! Felicidades por haber llegado a la mayoría de edad.");
+//     }
+// } else {
+//     console.log("Puede pasar al bar y tomar alcohol.");
+// }
 
-if (edad > 21 && edad % 2 !== 0) {
-    console.log("¿Sabías que tu edad es impar?");
-}
+// if (edad > 21 && edad % 2 !== 0) {
+//     console.log("¿Sabías que tu edad es impar?");
+// }
 
